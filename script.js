@@ -1,4 +1,4 @@
-const range = document.getElementById("range");
+const range = document.querySelector("#range");
 
 range.addEventListener("input", (e) => {
   const value = +e.target.value;
